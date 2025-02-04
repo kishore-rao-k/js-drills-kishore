@@ -7,12 +7,12 @@ function getEmailAddress(data) {
         return "No arguments passed";
     }
 
-    var n = data.length;
+    let n = data.length;
     const emails = new Array(n);
     if (n == 0) {
         return "No data available"
     }
-    for (var i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) {
         if (!data[i].email) {
             emails[i] = "Email not found for " + data[i].name;
         } else {
@@ -30,13 +30,13 @@ function getHobbies(data) {
         return "No arguments passed";
     }
 
-    var n = data.length;
+    let n = data.length;
     // const hobbies = new Array(n);
     const hobbies = [];
     if (n == 0) {
         return "No data available"
     }
-    for (var i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) {
 
         if (data[i].age === 35) {
             hobbies.push(data[i].hobbies);
@@ -54,7 +54,7 @@ function getStudentAustralia(data) {
         return "No arguments passed";
     }
 
-    var n = data.length;
+    let n = data.length;
     // const hobbies = new Array(n);
     const studAust = [];
     if (n == 0) {
@@ -78,7 +78,7 @@ function getNameAndCity(data) {
         return "No arguments passed";
     }
 
-    var n = data.length;
+    let n = data.length;
     const NameAndCity = [];
     if (n == 0) {
         return "No data available"
@@ -99,7 +99,7 @@ function getAge(data) {
     }
 
 
-    var n = data.length;
+    let n = data.length;
     // const hobbies = new Array(n);
     const age = [];
     if (n == 0) {
@@ -120,13 +120,13 @@ function getFirstHobbies(data) {
         return "No arguments passed";
     }
 
-    var n = data.length;
+    let n = data.length;
     // const hobbies = new Array(n);
     const firstHobbies = [];
     if (n == 0) {
         return "No data available"
     }
-    for (var i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) {
 
 
         firstHobbies.push(data[i].hobbies[0]);
@@ -145,13 +145,13 @@ function getNameAndEmail(data) {
         return "Data is not valid"
     }
 
-    var n = data.length;
+    let n = data.length;
 
     const nameAndEmail = [];
     if (n == 0) {
         return "No data available"
     }
-    for (var i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) {
 
         if (data[i].age === 25) {
             nameAndEmail.push(data[i].name && data[i].email);
@@ -170,13 +170,13 @@ function getCityandCountry(data) {
         return "Data is not valid"
     }
 
-    var n = data.length;
+    let n = data.length;
 
     const CityandCountry = [];
     if (n == 0) {
         return "No data available"
     }
-    for (var i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) {
 
         CityandCountry.push(data[i].city && data[i].country);
 

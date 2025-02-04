@@ -50,7 +50,8 @@ console.log(getNameAndEmail());
 console.log(getNameAndEmail(emptyArrayOfObject));
 
 //8.Implement a loop to access and log the city and country of each individual in the dataset.
-console.log(getCityandCountry(1));
+console.log(getCityandCountry("sdf"));
 console.log(getCityandCountry(arrayOfObjects));
 console.log(getCityandCountry());
 console.log(getCityandCountry(emptyArrayOfObject));
+
