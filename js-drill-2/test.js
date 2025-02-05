@@ -1,6 +1,6 @@
 import
 users
-    from './persons.js'
+    from './users.js'
 import { getInterest, getCountry, getMD, getLang } from './solutions.js';
 
 //Q1 Find all users who are interested in playing video games.

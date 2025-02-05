@@ -1,7 +1,7 @@
 import {
 
     inventory
-} from './persons.js'
+} from './inventory.js'
 
 import { getId, getLastCar, getSorted, getYear, getOlder, getBmwAndAudi } from './solution.js';
 // ==== Problem #1 ====
