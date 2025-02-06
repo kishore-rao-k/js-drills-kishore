@@ -11,7 +11,7 @@ function addIndex(num, index) {
     sum = num + index;
     return sum;
 }
-console.log(each(items, addIndex));
+// console.log(each(items, addIndex));
 
 // map
 function double(num, multiply) {
@@ -19,7 +19,7 @@ function double(num, multiply) {
     sum = num * multiply;
     return sum;
 }
-console.log(map(items, (i) => { return i * 2 }));
+// console.log(map(items, (i) => { return i * 2 }));
 
 //reduce
 function add(num, acc, initialValue) {
@@ -27,7 +27,7 @@ function add(num, acc, initialValue) {
     sum = num + acc;
     return sum;
 }
-console.log(reduce(items, add, 0));
+// console.log(reduce(items, add, 0));
 
 //find
 function search(num, matchNum) {
@@ -37,7 +37,7 @@ function search(num, matchNum) {
         return false;
     }
 }
-console.log(find(items, search));
+// console.log(find(items, search));
 
 //filter
 function isEven(num) {
@@ -47,7 +47,7 @@ function isEven(num) {
         return false;
     }
 }
-console.log(filter(items, isEven));
+// console.log(filter(items, isEven));
 
 const nestedArray = [1, [2], [[3]], [[[4]]]]; // use this to test 'flatten'
 console.log(flatten(nestedArray));
